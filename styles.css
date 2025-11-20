@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(218, 232, 245);
+    min-height: 100vh;
+    /* color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-container{
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    background-color: white;
+    padding: 50px 40px;
+}
+.login-heading{
+    padding-top: 20px;
+}
+.login-heading p{
+margin-bottom:  30px;
+color: gray;
+}
+
+.login-options div img{
+height: 25px;
+}
+.login-heading h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.form-container input{
+margin-bottom: 5px;
+margin-top: 10px;
+
+}
+.form-inputs{
+display:flex;
+flex-direction: column;
+gap: 15px;
+margin-bottom: 30px;
+}
+.form-inputs input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid rgb(122, 119, 119);
+    font-size: 15px;
+}
+input placeholder{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+.login-options-container{
+    margin-bottom: 30px;
+}
+.login-options-container p{
+font-size:22px;
+color: gray;
+margin-bottom: 30px;
+}
+.login-options{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.login-options div{
+    padding: 10px 35px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.form-container button{
+    width: 100%;
+    background-color: #0366ff;
+    border: none;
+    color: aliceblue;
+    padding: 14px 30px;
+    border-radius: 5px;
+}
+.form-inputs input:focus{
+    border-color: #0366ff;
+    outline-color:#0366ff ;
+    border-width:1px ;
+    border-collapse: collapse;
+}
